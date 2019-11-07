@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="sign_up">Do not have account? Sign Up!</string>
+    <string name="sign_in">Already have an account? Sign In!</string>
+    <string name="sign_in_btn">Sign In</string>
+    <string name="sign_up_btn">Sign Up</string>
+    <string name="sign_out_btn">Sign Out</string>
+    <string name="welcome">Welcome </string>
+    <string name="error_email">Incorrect email!</string>
+    <string name="error_pass">Incorrect password!</string>
+    <string name="error_phone">Wrong phone type!</string>
+    <string name="error_name">Name field is empty!</string>
+    <string name="welcome_text">Welcome </string>
+    <string name="email_field_hint">email</string>
+    <string name="pass_field_hint">password</string>
+    <string name="name_field_hint">your name</string>
+    <string name="phone_field_hint">phone number</string>
+    <string name="login_btn_text">Login</string>
+    <string name="fire_add_profile_name">Added user name</string>
+    <string name="fire_create_user_success">createUserWithEmail:success</string>
+    <string name="fire_create_user_failure">createUserWithEmail:failure</string>
+    <string name="toast_auth_failure">Authentication failed!</string>
+    <string name="fire_login_success">signInWithEmail:success</string>
+    <string name="fire_login_failure">signInWithEmail:failure</string>
+</resources>
