@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="independence">#012577</color>
-    <color name="slate_gray">#012577</color>
-    <color name="dark_sky_blue">#0ff577</color>
-    <color name="grey">#012577</color>
-    <color name="diamond">#f12577</color>
-    <color name="white">#055677</color>
-    <color name="milkWhite">#055577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="form_red">#ffff4444</color>
-    <color name="form_black">#00000000</color>
+    <color name="colorPrimary">#584686</color>
+    <color name="colorPrimaryDark">#606483</color>
+    <color name="colorAccent">#FDFDFD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPurpleT">#64983cff</color>
+    <color name="colorBlueT">#642fb4ff</color>
+    <color name="colorBlue">#2FB4FF</color>
+    <color name="colorPurple">#983CFF</color>
+    <color name="buttn_background">#894ADD</color>
+    <color name="activity_background">#A373E6</color>
+    <color name="border">#4f3565</color>
 </resources>

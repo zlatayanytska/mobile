@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dovhan.application.test">
+    package="com.iot.mobiledevelopment.test">
 
-    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29" />
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="29" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 
-    <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.dovhan.application"
+    <instrumentation android:name="androidx.test.runner.AndroidJUnitRunner"
+                     android:targetPackage="com.iot.mobiledevelopment"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.dovhan.application"/>
+                     android:label="Tests for com.iot.mobiledevelopment"/>
 </manifest>
