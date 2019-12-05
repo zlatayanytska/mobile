@@ -1,131 +1,149 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.dovhan.application"
+3    package="com.iot.mobiledevelopment"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
-8-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml
+8        android:minSdkVersion="19"
+8-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml
+9-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml
 10
-11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-12    <!-- <uses-sdk android:minSdkVersion="14" /> -->
-13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[com.google.firebase:firebase-firestore:21.1.1] /Users/zlata/.gradle/caches/transforms-2/files-2.1/aab98b3ae43aeb1420204b56651dd0c4/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:13:5-79
-13-->[com.google.firebase:firebase-firestore:21.1.1] /Users/zlata/.gradle/caches/transforms-2/files-2.1/aab98b3ae43aeb1420204b56651dd0c4/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:13:22-76
-14    <uses-permission android:name="android.permission.INTERNET" />
-14-->[com.google.firebase:firebase-firestore:21.1.1] /Users/zlata/.gradle/caches/transforms-2/files-2.1/aab98b3ae43aeb1420204b56651dd0c4/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:14:5-67
-14-->[com.google.firebase:firebase-firestore:21.1.1] /Users/zlata/.gradle/caches/transforms-2/files-2.1/aab98b3ae43aeb1420204b56651dd0c4/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:14:22-64
-15
-16    <application
-16-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:6:5-23:19
-17        android:allowBackup="true"
-17-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:7:9-35
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/41c083404c9af70847d7c097a47324c0/core-1.1.0/AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:8:9-43
-21        android:label="@string/app_name"
-21-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:9:9-41
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:10:9-54
-23        android:supportsRtl="true"
-23-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:11:9-35
-24        android:testOnly="true"
-25        android:theme="@style/AppTheme" >
-25-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:12:9-40
-26        <activity android:name="com.dovhan.application.SignUpActivity" />
-26-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:14:9-61
-26-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:14:19-49
-27        <activity android:name="com.dovhan.application.SignInActivity" >
-27-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:15:9-21:20
-27-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:15:19-49
-28            <intent-filter>
-28-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:16:13-20:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:17:17-69
-29-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:17:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:19:17-77
-31-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:19:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity android:name="com.dovhan.application.MainActivity" />
-34-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:22:9-50
-34-->/Users/zlata/Downloads/mobile-master-2/app/src/main/AndroidManifest.xml:22:19-47
-35
-36        <service
-36-->[com.google.firebase:firebase-firestore:21.1.1] /Users/zlata/.gradle/caches/transforms-2/files-2.1/aab98b3ae43aeb1420204b56651dd0c4/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:17:9-23:19
-37            android:name="com.google.firebase.components.ComponentDiscoveryService"
-37-->[com.google.firebase:firebase-firestore:21.1.1] /Users/zlata/.gradle/caches/transforms-2/files-2.1/aab98b3ae43aeb1420204b56651dd0c4/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:18:13-84
-38            android:directBootAware="true"
-38-->[com.google.firebase:firebase-common:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/93d6c192c9fd538729b08c955a3d6d34/firebase-common-19.1.0/AndroidManifest.xml:14:13-43
-39            android:exported="false" >
-39-->[com.google.firebase:firebase-firestore:21.1.1] /Users/zlata/.gradle/caches/transforms-2/files-2.1/aab98b3ae43aeb1420204b56651dd0c4/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:19:13-37
-40            <meta-data
-40-->[com.google.firebase:firebase-firestore:21.1.1] /Users/zlata/.gradle/caches/transforms-2/files-2.1/aab98b3ae43aeb1420204b56651dd0c4/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:20:13-22:85
-41                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-41-->[com.google.firebase:firebase-firestore:21.1.1] /Users/zlata/.gradle/caches/transforms-2/files-2.1/aab98b3ae43aeb1420204b56651dd0c4/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:21:17-111
-42                android:value="com.google.firebase.components.ComponentRegistrar" />
-42-->[com.google.firebase:firebase-firestore:21.1.1] /Users/zlata/.gradle/caches/transforms-2/files-2.1/aab98b3ae43aeb1420204b56651dd0c4/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:22:17-82
-43            <meta-data
-43-->[com.google.firebase:firebase-auth:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/bcabfd613fc897a624ad66ca636e7370/firebase-auth-19.0.0/AndroidManifest.xml:36:13-38:85
-44                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-44-->[com.google.firebase:firebase-auth:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/bcabfd613fc897a624ad66ca636e7370/firebase-auth-19.0.0/AndroidManifest.xml:37:17-109
-45                android:value="com.google.firebase.components.ComponentRegistrar" />
-45-->[com.google.firebase:firebase-auth:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/bcabfd613fc897a624ad66ca636e7370/firebase-auth-19.0.0/AndroidManifest.xml:38:17-82
-46            <meta-data
-46-->[com.google.firebase:firebase-database:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4cd098b87ba5fae3c82142f084497312/firebase-database-19.1.0/AndroidManifest.xml:32:13-34:85
-47                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-47-->[com.google.firebase:firebase-database:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4cd098b87ba5fae3c82142f084497312/firebase-database-19.1.0/AndroidManifest.xml:33:17-109
-48                android:value="com.google.firebase.components.ComponentRegistrar" />
-48-->[com.google.firebase:firebase-database:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4cd098b87ba5fae3c82142f084497312/firebase-database-19.1.0/AndroidManifest.xml:34:17-82
-49        </service>
-50
-51        <activity
-51-->[com.google.firebase:firebase-auth:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/bcabfd613fc897a624ad66ca636e7370/firebase-auth-19.0.0/AndroidManifest.xml:24:9-31:50
-52            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-52-->[com.google.firebase:firebase-auth:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/bcabfd613fc897a624ad66ca636e7370/firebase-auth-19.0.0/AndroidManifest.xml:25:13-85
-53            android:excludeFromRecents="true"
-53-->[com.google.firebase:firebase-auth:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/bcabfd613fc897a624ad66ca636e7370/firebase-auth-19.0.0/AndroidManifest.xml:26:13-46
-54            android:exported="true"
-54-->[com.google.firebase:firebase-auth:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/bcabfd613fc897a624ad66ca636e7370/firebase-auth-19.0.0/AndroidManifest.xml:27:13-36
-55            android:launchMode="singleTask"
-55-->[com.google.firebase:firebase-auth:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/bcabfd613fc897a624ad66ca636e7370/firebase-auth-19.0.0/AndroidManifest.xml:28:13-44
-56            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-56-->[com.google.firebase:firebase-auth:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/bcabfd613fc897a624ad66ca636e7370/firebase-auth-19.0.0/AndroidManifest.xml:29:13-102
-57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-57-->[com.google.firebase:firebase-auth:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/bcabfd613fc897a624ad66ca636e7370/firebase-auth-19.0.0/AndroidManifest.xml:30:13-72
-58        <activity
-58-->[com.google.android.gms:play-services-base:17.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/e4ac4394337075dfe1128e3f31c53c09/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-59-->[com.google.android.gms:play-services-base:17.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/e4ac4394337075dfe1128e3f31c53c09/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-60            android:exported="false"
-60-->[com.google.android.gms:play-services-base:17.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/e4ac4394337075dfe1128e3f31c53c09/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-61-->[com.google.android.gms:play-services-base:17.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/e4ac4394337075dfe1128e3f31c53c09/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-62
-63        <provider
-63-->[com.google.firebase:firebase-common:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/93d6c192c9fd538729b08c955a3d6d34/firebase-common-19.1.0/AndroidManifest.xml:17:9-21:39
-64            android:name="com.google.firebase.provider.FirebaseInitProvider"
-64-->[com.google.firebase:firebase-common:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/93d6c192c9fd538729b08c955a3d6d34/firebase-common-19.1.0/AndroidManifest.xml:18:13-77
-65            android:authorities="com.dovhan.application.firebaseinitprovider"
-65-->[com.google.firebase:firebase-common:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/93d6c192c9fd538729b08c955a3d6d34/firebase-common-19.1.0/AndroidManifest.xml:19:13-72
-66            android:exported="false"
-66-->[com.google.firebase:firebase-common:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/93d6c192c9fd538729b08c955a3d6d34/firebase-common-19.1.0/AndroidManifest.xml:20:13-37
-67            android:initOrder="100" />
-67-->[com.google.firebase:firebase-common:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/93d6c192c9fd538729b08c955a3d6d34/firebase-common-19.1.0/AndroidManifest.xml:21:13-36
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:6:5-79
+11-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:7:5-67
+12-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:7:22-64
+13
+14    <application
+14-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:9:5-27:19
+15        android:name="com.nal.tetiana.mobile.Application1"
+15-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:15:9-37
+16        android:allowBackup="true"
+16-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/56b6cdfbd80af409835a31a4470c49f0/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:16:9-40
+25        <activity android:name="com.nal.tetiana.mobile.WelcomeActivity" />
+25-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:18:9-53
+25-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:18:19-50
+26        <activity android:name="com.nal.tetiana.mobile.LoginActivity" >
+26-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:19:9-25:20
+26-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:19:19-48
+27            <intent-filter>
+27-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:20:13-24:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:21:17-69
+28-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:21:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:23:17-77
+30-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:23:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.nal.tetiana.mobile.RegisterActivity" />
+33-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:26:9-54
+33-->/Users/zlata/Desktop/laba2/app/src/main/AndroidManifest.xml:26:19-51
+34        <activity
+34-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:24:9-31:50
+35            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+35-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:25:13-85
+36            android:excludeFromRecents="true"
+36-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:26:13-46
+37            android:exported="true"
+37-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:27:13-36
+38            android:launchMode="singleTask"
+38-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:28:13-44
+39            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+39-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:29:13-102
+40            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+40-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:30:13-72
+41
+42        <service
+42-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:33:9-39:19
+43            android:name="com.google.firebase.components.ComponentDiscoveryService"
+43-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:34:13-84
+44            android:exported="false" >
+44-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:35:13-37
+45            <meta-data
+45-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:36:13-38:85
+46                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+46-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:37:17-109
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-auth:19.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:38:17-82
+48        </service>
+49
+50        <activity
+50-->[com.google.android.gms:play-services-auth:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+51            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+51-->[com.google.android.gms:play-services-auth:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+52            android:excludeFromRecents="true"
+52-->[com.google.android.gms:play-services-auth:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+53            android:exported="false"
+53-->[com.google.android.gms:play-services-auth:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.google.android.gms:play-services-auth:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+55        <!--
+56            Service handling Google Sign-In user revocation. For apps that do not integrate with
+57            Google Sign-In, this service will never be started.
+58        -->
+59        <service
+59-->[com.google.android.gms:play-services-auth:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+60            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+60-->[com.google.android.gms:play-services-auth:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+61            android:exported="true"
+61-->[com.google.android.gms:play-services-auth:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+62            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+62-->[com.google.android.gms:play-services-auth:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+63
+64        <provider
+64-->[com.squareup.picasso:picasso:2.71828] /Users/zlata/.gradle/caches/transforms-2/files-2.1/f1aca94cd2c92eddef0278e17c4bdc05/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+65            android:name="com.squareup.picasso.PicassoProvider"
+65-->[com.squareup.picasso:picasso:2.71828] /Users/zlata/.gradle/caches/transforms-2/files-2.1/f1aca94cd2c92eddef0278e17c4bdc05/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+66            android:authorities="com.iot.mobiledevelopment.com.squareup.picasso"
+66-->[com.squareup.picasso:picasso:2.71828] /Users/zlata/.gradle/caches/transforms-2/files-2.1/f1aca94cd2c92eddef0278e17c4bdc05/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+67            android:exported="false" />
+67-->[com.squareup.picasso:picasso:2.71828] /Users/zlata/.gradle/caches/transforms-2/files-2.1/f1aca94cd2c92eddef0278e17c4bdc05/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
 68
-69        <meta-data
-69-->[com.google.android.gms:play-services-basement:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/7c462a3627bc29885c2c08db351d2d0f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-70            android:name="com.google.android.gms.version"
-70-->[com.google.android.gms:play-services-basement:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/7c462a3627bc29885c2c08db351d2d0f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-71            android:value="@integer/google_play_services_version" />
-71-->[com.google.android.gms:play-services-basement:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/7c462a3627bc29885c2c08db351d2d0f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-72    </application>
+69        <activity
+69-->[com.google.android.gms:play-services-base:17.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/c6ed24259e187418524151309c91ad64/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+70-->[com.google.android.gms:play-services-base:17.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/c6ed24259e187418524151309c91ad64/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+71            android:exported="false"
+71-->[com.google.android.gms:play-services-base:17.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/c6ed24259e187418524151309c91ad64/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.android.gms:play-services-base:17.1.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/c6ed24259e187418524151309c91ad64/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
 73
-74</manifest>
+74        <provider
+74-->[com.google.firebase:firebase-common:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/e306355be855e8d08fa629ba35e00000/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+75            android:name="com.google.firebase.provider.FirebaseInitProvider"
+75-->[com.google.firebase:firebase-common:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/e306355be855e8d08fa629ba35e00000/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+76            android:authorities="com.iot.mobiledevelopment.firebaseinitprovider"
+76-->[com.google.firebase:firebase-common:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/e306355be855e8d08fa629ba35e00000/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+77            android:exported="false"
+77-->[com.google.firebase:firebase-common:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/e306355be855e8d08fa629ba35e00000/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+78            android:initOrder="100" />
+78-->[com.google.firebase:firebase-common:19.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/e306355be855e8d08fa629ba35e00000/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/c4b7e9285e80fe0b79cc8159093d4026/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/c4b7e9285e80fe0b79cc8159093d4026/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:17.0.0] /Users/zlata/.gradle/caches/transforms-2/files-2.1/c4b7e9285e80fe0b79cc8159093d4026/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+83    </application>
+84
+85</manifest>
