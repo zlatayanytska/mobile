@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="independence">#012577</color>
+    <color name="slate_gray">#012577</color>
+    <color name="dark_sky_blue">#0ff577</color>
+    <color name="grey">#012577</color>
+    <color name="diamond">#f12577</color>
+    <color name="white">#055677</color>
+    <color name="milkWhite">#055577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="form_red">#ffff4444</color>
+    <color name="form_black">#00000000</color>
+</resources>

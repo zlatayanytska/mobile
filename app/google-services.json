@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "184034070263",
+    "firebase_url": "https://lab1-aa05f.firebaseio.com",
+    "project_id": "lab1-aa05f",
+    "storage_bucket": "lab1-aa05f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184034070263:android:b71c836fa21a36cedf0df2",
+        "android_client_info": {
+          "package_name": "com.dovhan.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184034070263-07o9fuddkkdcv1f5jtuvtfgd76o6369o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApocehwC0yaZ_kNEEYI8Kz_4rdfk26Ijs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184034070263-07o9fuddkkdcv1f5jtuvtfgd76o6369o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
